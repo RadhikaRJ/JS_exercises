@@ -96,7 +96,7 @@ for(let i=0;i<5;i++){
   console.log(pattern);
 }
 
-//exercise2 
+//exercise2 Print table
 let userInputNum=readlineSync.question("Enter the number to get the table ");
 for(let i=1;i<=12;i++){
 console.log(userInputNum+"x"+i+"="+i*userInputNum);
